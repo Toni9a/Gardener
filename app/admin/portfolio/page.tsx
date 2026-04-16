@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { supabaseAdmin } from "@/lib/supabase";
 import type { PortfolioEntry } from "@/types";
 import Image from "next/image";
@@ -18,12 +19,12 @@ export default async function AdminPortfolioPage() {
           <a href="/admin" className="text-garden-300 text-sm hover:text-white">← Admin Dashboard</a>
           <div className="flex items-center justify-between mt-2">
             <h1 className="font-display text-3xl font-bold">Portfolio</h1>
-            <a
-              href="/admin/portfolio/import"
+            <Link
+              href="/admin/portfolio/new"
               className="btn-primary text-sm py-2"
             >
-              Import from Facebook
-            </a>
+              + Add Entry
+            </Link>
           </div>
         </div>
       </div>
