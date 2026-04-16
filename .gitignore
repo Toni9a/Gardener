@@ -6,6 +6,9 @@ node_modules/
 # Local env
 .env
 .env.local
+
+# MCP config (contains API keys)
+.mcp.json
 .env.development.local
 .env.test.local
 .env.production.local
