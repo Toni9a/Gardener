@@ -46,12 +46,12 @@ export async function sendQuoteRequestEmail(data: {
     <pre style="background:#f8f8f8;padding:12px;border-radius:4px">${prefLines}</pre>
     ${image_url ? `<h3>Uploaded Garden Photo</h3><p><a href="${image_url}">View photo</a></p>` : ""}
     ${visualization_url ? `<h3>AI Transformation</h3><p><a href="${visualization_url}">View visualization</a></p>` : ""}
-    <p style="color:#666;font-size:12px;margin-top:24px">Sent from GardenScene website</p>
+    <p style="color:#666;font-size:12px;margin-top:24px">Sent from Green Scene website · info@greenscene.uk.net</p>
   `;
 
   await transporter.sendMail({
-    from: `"GardenScene Website" <${process.env.SMTP_USER}>`,
-    to: process.env.GARDENSCENE_EMAIL,
+    from: `"Green Scene Website" <${process.env.SMTP_USER}>`,
+    to: process.env.GREENSCENE_EMAIL,
     replyTo: email,
     subject: `New Quote Request from ${name}`,
     html,

@@ -74,9 +74,11 @@ export default function QuotePage() {
             to discuss your garden transformation.
           </p>
           <p className="mt-4 text-sm text-gray-500">
-            📞 <a href="tel:+441604000000" className="text-garden-700 hover:underline">01604 000 000</a>
+            📞 <a href="tel:01604701021" className="text-garden-700 hover:underline">01604 701021</a>
             {" · "}
-            ✉️ <a href="mailto:info@gardenscene.co.uk" className="text-garden-700 hover:underline">info@gardenscene.co.uk</a>
+            📱 <a href="tel:07973187072" className="text-garden-700 hover:underline">07973 187072</a>
+            {" · "}
+            ✉️ <a href="mailto:info@greenscene.uk.net" className="text-garden-700 hover:underline">info@greenscene.uk.net</a>
           </p>
         </div>
       </div>

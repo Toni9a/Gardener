@@ -38,7 +38,7 @@ export default async function PortfolioPage({
       <div className="bg-garden-900 text-white py-16 text-center">
         <h1 className="font-display text-4xl font-bold sm:text-5xl">Our Work</h1>
         <p className="mt-4 text-garden-200 text-lg max-w-xl mx-auto">
-          Real gardens transformed by GardenScene. Drag the sliders to see before and after.
+          Real gardens transformed by Green Scene. Drag the sliders to see before and after.
         </p>
       </div>
 

@@ -9,7 +9,7 @@ export default function ContactPage() {
       <div className="bg-garden-900 text-white py-16 text-center">
         <h1 className="font-display text-4xl font-bold sm:text-5xl">Get In Touch</h1>
         <p className="mt-4 text-garden-200 text-lg max-w-xl mx-auto">
-          We&apos;re based in Northamptonshire and would love to help with your garden.
+          Based in East Hunsbury, Northampton — covering the whole of Northamptonshire.
         </p>
       </div>
 
@@ -23,11 +23,20 @@ export default function ContactPage() {
               <div className="flex items-start gap-4">
                 <div className="text-2xl">📞</div>
                 <div>
-                  <p className="font-semibold text-gray-900">Phone</p>
-                  <a href="tel:+441604000000" className="text-garden-700 hover:text-garden-900 text-lg font-medium">
-                    01604 000 000
+                  <p className="font-semibold text-gray-900">Telephone</p>
+                  <a href="tel:01604701021" className="text-garden-700 hover:text-garden-900 text-lg font-medium">
+                    01604 701021
                   </a>
-                  <p className="text-xs text-gray-400 mt-1">Mon–Sat, 8am–6pm</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="text-2xl">📱</div>
+                <div>
+                  <p className="font-semibold text-gray-900">Mobile</p>
+                  <a href="tel:07973187072" className="text-garden-700 hover:text-garden-900 text-lg font-medium">
+                    07973 187072
+                  </a>
                 </div>
               </div>
 
@@ -35,8 +44,8 @@ export default function ContactPage() {
                 <div className="text-2xl">✉️</div>
                 <div>
                   <p className="font-semibold text-gray-900">Email</p>
-                  <a href="mailto:info@gardenscene.co.uk" className="text-garden-700 hover:text-garden-900">
-                    info@gardenscene.co.uk
+                  <a href="mailto:info@greenscene.uk.net" className="text-garden-700 hover:text-garden-900">
+                    info@greenscene.uk.net
                   </a>
                 </div>
               </div>
@@ -44,10 +53,23 @@ export default function ContactPage() {
               <div className="flex items-start gap-4">
                 <div className="text-2xl">📍</div>
                 <div>
+                  <p className="font-semibold text-gray-900">Address</p>
+                  <p className="text-gray-600 leading-relaxed">
+                    1 Shedfield Way<br />
+                    East Hunsbury<br />
+                    Northampton<br />
+                    NN4 0SD
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="text-2xl">🗺️</div>
+                <div>
                   <p className="font-semibold text-gray-900">Service Area</p>
                   <p className="text-gray-600 leading-relaxed">
-                    Northamptonshire, including Northampton, Kettering, Corby, Wellingborough, Daventry,
-                    and surrounding villages.
+                    All areas across Northamptonshire — Northampton, Kettering, Corby,
+                    Wellingborough, Daventry, and surrounding villages.
                   </p>
                 </div>
               </div>
@@ -59,7 +81,7 @@ export default function ContactPage() {
                 See our latest garden transformations on Facebook.
               </p>
               <a
-                href="https://www.facebook.com/GardenScene"
+                href="https://www.facebook.com/OriginalGreenScene/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary inline-flex items-center gap-2"
@@ -67,7 +89,7 @@ export default function ContactPage() {
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
-                GardenScene on Facebook
+                Green Scene on Facebook
               </a>
             </div>
           </div>

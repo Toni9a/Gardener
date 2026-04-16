@@ -68,7 +68,7 @@ export async function generateGardenVisualization(
     ? `Add ${preferences.preferred_flowers.length > 0 ? preferences.preferred_flowers.join(", ") : "mixed flowers"}.`
     : "Do not add flowers.";
 
-  const prompt = `You are GardenScene, a professional garden transformation service in Northamptonshire.
+  const prompt = `You are Green Scene, a professional garden maintenance service based in East Hunsbury, Northampton.
 
 A customer has uploaded a photo of their ${preferences.garden_type} garden. They want improvements to: ${improvements}. ${flowers}
 

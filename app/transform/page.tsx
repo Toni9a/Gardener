@@ -81,7 +81,7 @@ export default function TransformPage() {
       <div className="bg-garden-900 text-white py-16 text-center">
         <h1 className="font-display text-4xl font-bold sm:text-5xl">Garden Transformation Tool</h1>
         <p className="mt-4 text-garden-200 text-lg max-w-xl mx-auto">
-          Upload a photo of your garden and see what GardenScene could do for you.
+          Upload a photo of your garden and see what Green Scene could do for you.
         </p>
       </div>
 
@@ -309,7 +309,7 @@ export default function TransformPage() {
                 Ready to transform your garden?
               </h3>
               <p className="mt-2 text-gray-600">
-                Request a free quote and we&apos;ll be in touch within 24 hours.
+                Request a free quote from Green Scene and we&apos;ll be in touch within 24 hours.
               </p>
               <div className="mt-6">
                 <Link

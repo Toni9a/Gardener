@@ -45,7 +45,7 @@ export default function GardenBuddyLoginPage() {
           <div className="text-5xl mb-4">🌱</div>
           <h1 className="font-display text-3xl font-bold text-garden-900">Garden Buddy</h1>
           <p className="mt-2 text-gray-600">
-            Track your garden health, watering logs, and care reminders.
+            Your Green Scene client portal. Track garden health, watering logs, and care reminders.
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export default function GardenBuddyLoginPage() {
 
           <p className="mt-6 text-center text-xs text-gray-400">
             Not a client yet?{" "}
-            <a href="/quote" className="text-garden-600 hover:text-garden-800">Get a quote here</a>.
+            <a href="/quote" className="text-garden-600 hover:text-garden-800">Request a quote from Green Scene</a>.
           </p>
         </div>
       </div>

@@ -5,15 +5,15 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "GardenScene — Professional Garden Services in Northamptonshire",
-    template: "%s | GardenScene",
+    default: "Green Scene — Garden Maintenance in Northamptonshire",
+    template: "%s | Green Scene",
   },
   description:
-    "GardenScene provides professional lawn restoration, hedge trimming, garden clean-up, and planting services across Northamptonshire.",
-  keywords: ["garden", "gardener", "Northamptonshire", "lawn", "hedge trimming", "garden maintenance"],
+    "Green Scene provides professional lawn restoration, hedge trimming, garden clean-up, and planting services across Northamptonshire. Domestic & commercial. Call 01604 701021.",
+  keywords: ["green scene", "garden maintenance", "Northamptonshire", "lawn", "hedge trimming", "East Hunsbury", "Northampton gardener"],
   openGraph: {
-    title: "GardenScene",
-    description: "Professional garden services in Northamptonshire",
+    title: "Green Scene Garden Maintenance",
+    description: "Professional garden maintenance in Northamptonshire · 01604 701021",
     type: "website",
     locale: "en_GB",
   },

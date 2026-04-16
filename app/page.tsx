@@ -29,14 +29,14 @@ export default async function HomePage() {
         <div className="absolute inset-0 opacity-10 bg-[url('/hero-pattern.svg')] bg-repeat" />
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 text-center">
           <p className="text-garden-300 text-sm font-semibold uppercase tracking-widest mb-4">
-            Professional Garden Services · Northamptonshire
+            Professional Garden Maintenance · Northamptonshire
           </p>
           <h1 className="font-display text-5xl font-bold text-white sm:text-6xl lg:text-7xl leading-tight">
             Your Garden,<br />
             <span className="text-garden-300">Transformed.</span>
           </h1>
           <p className="mt-6 text-lg text-garden-100 max-w-2xl mx-auto leading-relaxed">
-            GardenScene brings neglected, tired gardens back to life. Lawn restoration, hedge trimming,
+            Green Scene brings neglected, tired gardens back to life. Lawn restoration, hedge trimming,
             full clean-ups, and beautiful planting — all across Northamptonshire.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">

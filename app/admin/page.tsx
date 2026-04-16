@@ -72,7 +72,7 @@ export default async function AdminPage() {
     <div className="min-h-screen bg-gray-50">
       <div className="bg-garden-900 text-white py-8 px-4 sm:px-6">
         <div className="mx-auto max-w-7xl">
-          <p className="text-garden-300 text-sm">GardenScene</p>
+          <p className="text-garden-300 text-sm">Green Scene Garden Maintenance</p>
           <h1 className="font-display text-3xl font-bold mt-1">Admin Dashboard</h1>
         </div>
       </div>

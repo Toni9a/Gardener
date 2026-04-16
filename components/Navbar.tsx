@@ -22,7 +22,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <span className="text-2xl">🌿</span>
-          <span className="font-display text-xl font-bold text-garden-800">GardenScene</span>
+          <span className="font-display text-xl font-bold text-garden-800">Green Scene</span>
         </Link>
 
         {/* Desktop nav */}
